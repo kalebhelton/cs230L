@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.css";
+import Card from './Card.js';
+import navBar from './Navbar.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <navBar />
     <App />
+    <Card />
   </React.StrictMode>
 );
 
