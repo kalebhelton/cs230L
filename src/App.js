@@ -12,7 +12,6 @@ function App() {
         <p>Hi I am Kaleb</p>
 
         <Card />
-        <navBar />
 
     </div>
   );
