@@ -1,4 +1,4 @@
-function Card(){
+export function Card(){
     return(
         <><div class="card-body">
             <h5 class="card-title">Primary card title</h5>
