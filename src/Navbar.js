@@ -1,3 +1,5 @@
+function navBar(){
+    return(
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Navbar</a>
   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -35,3 +37,5 @@
     </form>
   </div>
 </nav>
+    )
+}
