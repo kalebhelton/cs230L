@@ -10,6 +10,10 @@ function App() {
         <h2>Section 01</h2>
         <p>WVU ID: 800393145</p>
         <p>Hi I am Kaleb</p>
+
+      <navBar />
+      <Card />
+
     </div>
   );
 }
