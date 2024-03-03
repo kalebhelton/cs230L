@@ -1,20 +1,20 @@
-export default function Card(){
-    return(
-        <><div class="card text-white bg-primary text-center m-2" style="width: 300px;">
-            <div class="card-header text-center ">Card 01</div>
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on teh card title + make up the bulk of teh card's content.</p>
-            </div>
-        </div><div class="card text-white bg-danger text-center m-2" style="width: 300px;">
-                <div class="card-header text-center ">Card 02</div>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on teh card title + make up the bulk of teh card's content.</p>
-                </div>
-            </div><div class="card text-white bg-success text-center m-2" style="width: 300px;">
-                <div class="card-header text-center ">Card 03</div>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on teh card title + make up the bulk of teh card's content.</p>
-                </div>
-            </div></>
+import Card from 'react-bootstrap/Card';
+
+function TextExample() {
+    return (
+      <Card style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+        </Card.Body>
+      </Card>
     );
-}
+  }
+  
+  export default TextExample;

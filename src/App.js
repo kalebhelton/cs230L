@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './Card.js';
-import navBar from './Navbar.js';
+import TextExample from './Card.js';
+import BasicExample from './Navbar.js';
 
 function App() {
   return (
     <div>
-       <navBar />
+       <BasicExample />
     <div className="App">
 
         <h1>CS 230L</h1>
@@ -15,7 +15,7 @@ function App() {
         <p>Hi I am Kaleb</p>
 
     </div>
-      <Card />
+      <TextExample />
     </div>
   );
 }
