@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-function TextExample() {
+function Card() {
     return (
       <Card style={{ width: '18rem' }}>
         <Card.Body>
@@ -17,4 +17,4 @@ function TextExample() {
     );
   }
   
-  export default TextExample;
+  export default Card;
