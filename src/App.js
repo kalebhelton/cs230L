@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './Card';
-import Navbar from './Navbar';
+import Card1 from './Card';
+import Navbar1 from './Navbar';
 
 function App() {
   return (
     <div>
-       <Navbar />
+       <Navbar1 />
     <div className="App">
 
         <h1>CS 230L</h1>
@@ -15,7 +15,7 @@ function App() {
         <p>Hi I am Kaleb</p>
 
     </div>
-      <Card />
+      <Card1 />
     </div>
   );
 }
